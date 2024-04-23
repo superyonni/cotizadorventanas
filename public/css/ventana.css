@@ -1,0 +1,62 @@
+
+    body {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 20px;
+        color: #333;
+    }
+
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+    }
+
+    th,
+    td {
+        padding: 2px;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    .total {
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        table {
+            font-size: 12px;
+        }
+    }
+
+    .info-izquierda {
+        float: left;
+        width: 45%;
+    }
+
+
+    .info-derecha {
+        float: right;
+        width: 60%;
+        text-align: right;
+    }
+
+    .info-derechaa {
+        float: right;
+        width: 50%;
+
+    }

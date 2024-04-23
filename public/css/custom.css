@@ -1,0 +1,106 @@
+
+body {
+   font-family: Arial, sans-serif;
+}
+.logo-container {
+   position: absolute;
+   top: 10px;
+   left: 5px;
+}
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+table, th, td {
+   border: 1px solid black;
+}
+th, td {
+   padding: 8px;
+   text-align: center;
+}
+h2 {
+   text-align: center;
+}
+p {
+   line-height: 0.5;
+}       
+
+/* Estilos para la tabla */
+.custom-table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+.custom-table th {
+   background-color: #F39C12;
+   border: 1px solid black;
+   padding: 8px;
+   text-align: center;
+}
+
+.custom-table td, .custom-table th {
+   border: 1px solid black;
+   padding: 8px;
+   text-align: center;
+}
+
+/* Estilos específicos para el encabezado */
+.custom-table th:nth-child(1), .custom-table th:nth-child(2) {
+   background-color: #FAD7A0;
+   text-align: center;
+}
+
+/* Otros estilos personalizados */
+.custom-table ul {
+   list-style-type: disc;
+   margin-left: 20px;
+}
+
+.custom-table ul p {
+   margin: 0;
+}
+
+
+
+body::after {
+    content: "";
+    background: url(path/to/your/watermark.png);
+    background-repeat: repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    font-size: 0.8em; /* Ajusta el tamaño de la fuente aquí */
+}
+
+
+.custom-tabe {
+   page-break-inside: avoid;
+}
+
+
+
+.main-sidebar {
+   font-size: 19px;
+   overflow-x: hidden;
+}
+
+.main-sidebar .nav-sidebar .nav-link {
+   max-width: 230px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
